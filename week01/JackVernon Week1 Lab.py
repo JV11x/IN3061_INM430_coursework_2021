@@ -7,8 +7,9 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-from scipy.spatpiial import distance
+from scipy.spatial import distance
 import csv
+
 import sys
 
 # %%
@@ -112,7 +113,7 @@ print(y)
 print(z)
 
 plt.hist(z, 15, density=True)
-plt.show
+plt.show()
 
 #%%
 
